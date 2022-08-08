@@ -1,6 +1,8 @@
 
-{tab}>{speed5}{-lctrl}{s}{+lctrl}
-{=}>{speed5}{-lctrl}{f}{+lctrl}
+{=}>{speed5}{-lctrl}{s}{+lctrl}
+{tab}>{speed9}{-rwin}{v}{+rwin}
+{escape}>{speed5}{-lctrl}{f}{+lctrl}
+[escape]>[null]
 [tab]>[null]
 {ralt}{w}>{speed9}{-lshift}{/}{+lshift}
 {ralt}{e}>{speed9}{-ralt}{8}{+ralt}
@@ -42,16 +44,12 @@
 [/]>[null]
 {ralt}{/}>{speed9}{-lshift}{,}{+lshift}
 [rshift]>[null]
-{`}>{speed5}{-rwin}{v}{+rwin}
-{intl-\}>{speed5}{-lctrl}{x}{+lctrl}
-{left}>{speed9}{-lctrl}{c}{+lctrl}
-{right}>{speed9}{-lctrl}{v}{+lctrl}
+{obrack}>{speed9}{-lctrl}{c}{+lctrl}
+{cbrack}>{speed9}{-lctrl}{v}{+lctrl}
 [end]>[ralt]
-[pdown]>[kpshft]
+[pdown]>[rshift]
 {up}>{speed5}{-lctrl}{y}{+lctrl}
 {down}>{speed5}{-lctrl}{z}{+lctrl}
-[obrack]>[null]
-[cbrack]>[null]
 [lp-tab]>[lshift]
 [mp-kpshf]>[lalt]
 [rp-kpent]>[kpshft]
@@ -108,3 +106,7 @@
 [kp-rp-kpent]>[kpshft]
 [kpplus]>[kp0]
 [kpmin]>[null]
+[left]>[right]
+[intl-\]>[left]
+[right]>[down]
+[`]>[up]
