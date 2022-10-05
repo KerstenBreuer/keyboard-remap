@@ -109,5 +109,9 @@ Send, `%
 return
 
 ^!+,::
-Send, `;
+Send, `"
+return
+
+^!+.::
+Send, `'
 return
